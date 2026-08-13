@@ -4,7 +4,7 @@ import SearchBar from "../SearchBar/SearchBar.tsx";
 import MovieGrid from "../MovieGrid/MovieGrid.tsx";
 import MovieModal from "../MovieModal/MovieModal.tsx";
 import type { Movie } from "../../types/movie.ts";
-import ErrorMessage from "../Error/ErrorMessage.tsx";
+import ErrorMessage from "../ErrorMessage/ErrorMessage.tsx";
 import Loader from "../Loader/Loader.tsx";
 import { fetchMovies } from "../../services/movieService.ts";
 import css from "./App.module.css";
