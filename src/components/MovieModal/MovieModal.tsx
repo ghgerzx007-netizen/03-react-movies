@@ -5,7 +5,7 @@ export default function MovieModal({ movie, onClose }: { movie: Movie; onClose: 
    <div className={css.backdrop} role="dialog" aria-modal="true">
   <div className={css.modal}>
     <button className={css.closeButton} aria-label="Close modal" onClick={onClose}>
-      &times; 
+      &times;
     </button>
     <img
       src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}
